@@ -53,6 +53,11 @@
     hsl(45, 100%, 72%), 
     hsl(35, 100%, 68%)
   );
+  --text-gradient-blue: linear-gradient(
+    to right, 
+    hsl(262, 68%, 34%), 
+    hsl(259, 90%, 16%)
+  );
 
   /* solid */
 
@@ -866,7 +871,11 @@ main {
   height: 100%;
   border-radius: inherit;
 }
-
+.skill-progress-fill2 {
+  background: var(--text-gradient-blue);
+  height: 100%;
+  border-radius: inherit;
+}
 
 
 
