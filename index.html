@@ -943,7 +943,7 @@
       <article class="contact" data-page="contact">
 
         <header>
-          <h2 class="h2 article-title">CONTACT</h2>
+          <h2 class="h2 article-title">위치</h2>
         </header>
 <!--자신이 위치하는 정보 구글 지도에서 가져오기-->
         <section class="mapbox" data-mapbox>
@@ -956,22 +956,25 @@
 
         <section class="contact-form">
 
-          <h3 class="h3 form-title">Contact Form</h3>
+          <h3 class="h3 form-title">직무 추천 AI 채팅서비스</h3>
 
           <form action="#" class="form" data-form>
 
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            <div class="chat-content">
+              <div class="line">
+                <span class="chat-box">내가말함</span>
+              </div>
+              <div class="line">
+                <span class="chat-box mine">지피티응답</span>
+              </div>
             </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
+            <input class="chat-box" id="input">
+            <button id="send">전송</button>
+            <!---
             <button class="form-btn" type="submit" disabled data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
-            </button>
+            </button>-->
 
           </form>
 

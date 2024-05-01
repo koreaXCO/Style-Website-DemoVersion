@@ -1765,5 +1765,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 	 */
 
   .timeline-text { max-width: 700px; }
-
+ /*챗박스*/
+  .chat-content { height: 350px; overflow-y:scroll;}
+  .line { margin-top: 10px; display: flex;}
+  .chat-box{background: #eee; padding: 5px; max-width:
+    200px;}
+  .mine{margin-left: auto;}
 }
