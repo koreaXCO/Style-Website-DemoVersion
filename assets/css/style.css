@@ -1772,3 +1772,93 @@ textarea.form-input::-webkit-resizer { display: none; }
     200px;}
   .mine{margin-left: auto;}
 }
+/* 대화형 컨테이너 스타일 */
+.chat-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* 채팅 로그 스타일 */
+.chat-log {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  overflow-y: scroll;
+  max-height: 200px;
+}
+
+/* 사용자 입력 폼 스타일 */
+.user-input {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* 사용자 입력 필드 스타일 */
+#user-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+/* 전송 버튼 스타일 */
+#send-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#send-button:hover {
+  background-color: #0056b3;
+}
+
+/* 로딩 표시 스타일 */
+.loading-indicator {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #007bff;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* 채팅 메시지 스타일 */
+.message {
+  padding: 8px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+/* 사용자 메시지 배경색 */
+.user {
+  background-color: #def3ff;
+}
+
+/* 챗봇 메시지 배경색 */
+.bot {
+  background-color: #e9e9e9;
+}

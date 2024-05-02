@@ -953,28 +953,19 @@
               width="400" height="300" loading="lazy"></iframe>
           </figure>
         </section>
-
+<!--GPT 채팅서비스 구현-->
         <section class="contact-form">
 
-          <h3 class="h3 form-title">직무 추천 AI 채팅서비스</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="chat-content">
-              <div class="line">
-                <span class="chat-box">내가말함</span>
-              </div>
-              <div class="line">
-                <span class="chat-box mine">지피티응답</span>
-              </div>
+          <div class="chat-container">
+            <div class="chat-log" id="chat-log"></div>
+            <form id="user-form" class="user-input">
+                <input type="text" id="user-input" placeholder="메시지를 입력하세요..."> <!-- 사용자 입력 필드 -->
+                <button type="submit" id="send-button">보내기</button> <!-- 메시지 전송 버튼 -->
+            </form>
+            <div class="loading-indicator" id="loading-indicator">
+                <div class="spinner"></div>
             </div>
-            <input class="chat-box" id="input">
-            <button id="send">전송</button>
-            <!---
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>-->
+        </div>
 
           </form>
 
@@ -995,6 +986,8 @@
     - custom js link
   -->
   <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/chatbot.js"></script>
+  
 
   <!--
     - ionicon link
