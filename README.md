@@ -6,7 +6,7 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
 [![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+vCard(가상명함)은 반응형 개인 포토폴리오 웹사이트입니다. 모든 기기에서 사용가능 하도록 세팅이 되어있으며, 사용기술은 HTML, CSS, Javascript로 구성되어있습니다.
 
 ## Demo
 
@@ -15,14 +15,13 @@ vCard is a fully responsive personal portfolio website, responsive for all devic
 
 ## Prerequisites
 
-Before you begin, ensure you have met the following requirements:
+시작하기 전에 다음 요구 사항을 충족했는지 확인하십시오:
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+* [Git](https://git-scm.com/downloads "Download Git") 운영 체제에 설치해야 합니다.
 
 ## Installing vCard
 
-To install **vCard**, follow these steps:
-
+**vCard**을(를) 설치하려면 다음 단계를 수행합니다:
 Linux and macOS:
 
 ```bash
@@ -34,10 +33,6 @@ Windows:
 ```bash
 git clone https://github.com/DaeguShiba/vcard-personal-portfolio-KR.git
 ```
-
-## Contact
-
-If you want to contact me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
 
 ## License
 
