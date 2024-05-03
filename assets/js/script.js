@@ -157,5 +157,21 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+//스크린샷
+$(document).ready(function() {
+  $("#captureButton").on('click', function(e) {
+      html2canvas(e.target.parentElement).then(function(canvas) {
+          if (navigator.msSaveBlob) {
+              var blob = canvas.msToBlob();
+              return navigator.msSaveBlob(blob, '파일명.jpg');
+          } else {
+              var downloadLink = document.getElementById("downloadLink");
+              downloadLink.href = canvas.toDataURL("image/jpeg");
+              downloadLink.download = '파일명.jpg';
+              downloadLink.click();
+          }
+      });
+  });
+});
 
 
