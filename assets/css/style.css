@@ -1890,6 +1890,28 @@ textarea.form-input::-webkit-resizer { display: none; }
 .captureButton:active {
   transform: scale(0.95); /* 클릭 시 작은 스케일링 효과 */
 }
+/*하이퍼 링크*/
+.hyperlink-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.hyperlink-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #FFD700; /* 노란색 */
+  color: #0e0101; /* 흰색 텍스트 */
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+}
+
+.hyperlink-button:hover {
+  background-color: #FFCC00; /* hover 시 더 밝은 노란색 */
+}
 
  
     
