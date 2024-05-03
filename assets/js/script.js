@@ -158,20 +158,20 @@ for (let i = 0; i < navigationLinks.length; i++) {
   });
 }
 //스크린샷
-$(document).ready(function() {
-  $("#captureButton").on('click', function(e) {
-      html2canvas(e.target.parentElement).then(function(canvas) {
-          if (navigator.msSaveBlob) {
-              var blob = canvas.msToBlob();
-              return navigator.msSaveBlob(blob, '파일명.jpg');
-          } else {
-              var downloadLink = document.getElementById("downloadLink");
-              downloadLink.href = canvas.toDataURL("image/jpeg");
-              downloadLink.download = '파일명.jpg';
-              downloadLink.click();
-          }
-      });
+function captureSidebar() {
+  const sidebar = document.querySelector('.sidebar');
+  html2canvas(sidebar).then(canvas => {
+    // Canvas를 이미지로 변환합니다.
+    const image = canvas.toDataURL('image/png');
+    // 이미지를 다운로드할 수 있는 링크를 생성합니다.
+    const downloadLink = document.createElement('a');
+    downloadLink.href = image;
+    downloadLink.download = 'sidebar_capture.png';
+    // 링크를 클릭하여 다운로드합니다.
+    downloadLink.click();
   });
-});
+}
+
+document.getElementById('captureButton').addEventListener('click', captureSidebar);
 
 
