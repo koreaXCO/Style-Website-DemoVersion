@@ -1,5 +1,5 @@
 /*-----------------------------------*\
-  #style.css
+  #style.css 
 \*-----------------------------------*/
 
 
@@ -18,7 +18,7 @@
 :root {
 
   /**
-   * colors
+   * colors  (색상)
    */
 
   /* gradient */
@@ -298,9 +298,6 @@ article.active {
 }
 
 
-
-
-
 /*-----------------------------------*\
   #MAIN
 \*-----------------------------------*/
@@ -310,9 +307,6 @@ main {
   margin-bottom: 75px;
   min-width: 259px;
 }
-
-
-
 
 
 /*-----------------------------------*\
@@ -432,7 +426,6 @@ main {
   font-size: var(--fs-7);
 }
 
-.contact-info address { font-style: normal; }
 
 .social-list {
   display: flex;
@@ -450,7 +443,6 @@ main {
 
 
 .social-item .social-link:hover { color: var(--light-gray); }
-
 
 
 
@@ -491,7 +483,6 @@ main {
 .navbar-link:focus { color: var(--light-gray-70); }
 
 .navbar-link.active { color: var(--orange-yellow-crayola); }
-
 
 
 
@@ -725,43 +716,6 @@ main {
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
-
-
-/**
- * #clients 
- */
-
-.clients { margin-bottom: 15px; }
-
-.clients-list {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 15px;
-  margin: 0 -15px;
-  padding: 25px;
-  padding-bottom: 25px;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  overscroll-behavior-inline: contain;
-  scroll-snap-type: inline mandatory;
-  scroll-padding-inline: 25px;
-}
-
-.clients-item {
-  min-width: 50%;
-  scroll-snap-align: start;
-}
-
-.clients-item img {
-  width: 100%;
-  filter: grayscale(1);
-  transition: var(--transition-1);
-}
-
-.clients-item img:hover { filter: grayscale(0); }
-
-
 
 
 

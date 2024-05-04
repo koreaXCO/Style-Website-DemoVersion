@@ -30,6 +30,10 @@ Windows:
 ```bash
 git clone https://github.com/DaeguShiba/vcard-personal-portfolio-KR.git
 ```
+## 자신의 캐릭터 생성
+* [아바타제작](https://peeps.ui8.net/ "캐릭터를 생성!")
+
+
 
 ## License
 

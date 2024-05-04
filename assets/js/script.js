@@ -2,16 +2,16 @@
 
 
 
-// element toggle function
+// element toggle function // 엘리먼트 토글 함수
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
 
 
 
-// sidebar variables
+// sidebar variables // 사이드바 관련 변수
 const sidebar = document.querySelector("[data-sidebar]");
 const sidebarBtn = document.querySelector("[data-sidebar-btn]");
 
-// sidebar toggle functionality for mobile
+// sidebar toggle functionality for mobile 
 sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); });
 
 
@@ -174,4 +174,9 @@ function captureSidebar() {
 
 document.getElementById('captureButton').addEventListener('click', captureSidebar);
 
-
+//배경색 사용자 지정
+function changeBackgroundColor() {
+  var colorInput = document.getElementById("colorInput");
+  var selectedColor = colorInput.value;
+  document.body.style.backgroundColor = selectedColor;
+}
