@@ -1867,5 +1867,10 @@ textarea.form-input::-webkit-resizer { display: none; }
   background-color: #FFCC00; /* hover 시 더 밝은 노란색 */
 }
 
+/*배경색수정*/
+#colorPicker button {
+  background-color: #FFD700; /* 버튼의 배경색을 흰색으로 지정 */
+  border-radius: 5px; /* 테두리를 동글동글하게 만듦 */
+}
  
     
