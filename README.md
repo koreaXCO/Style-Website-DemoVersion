@@ -3,7 +3,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/DaeguShiba/vcard-personal-portfolio-KR)
 
 
-vCard(가상명함)은 반응형 개인 포토폴리오 웹사이트입니다. 모든 기기에서 사용가능 하도록 세팅이 되어있으며, 사용기술은 HTML, CSS, Javascript로 구성되어있습니다.
+123
 
 ## 데모
 
