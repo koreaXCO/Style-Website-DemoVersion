@@ -157,26 +157,3 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
-//스크린샷
-function captureSidebar() {
-  const sidebar = document.querySelector('.sidebar');
-  html2canvas(sidebar).then(canvas => {
-    // Canvas를 이미지로 변환합니다.
-    const image = canvas.toDataURL('image/png');
-    // 이미지를 다운로드할 수 있는 링크를 생성합니다.
-    const downloadLink = document.createElement('a');
-    downloadLink.href = image;
-    downloadLink.download = 'sidebar_capture.png';
-    // 링크를 클릭하여 다운로드합니다.
-    downloadLink.click();
-  });
-}
-
-document.getElementById('captureButton').addEventListener('click', captureSidebar);
-
-//배경색 사용자 지정
-function changeBackgroundColor() {
-  var colorInput = document.getElementById("colorInput");
-  var selectedColor = colorInput.value;
-  document.body.style.backgroundColor = selectedColor;
-}
