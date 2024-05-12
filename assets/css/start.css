@@ -34,19 +34,29 @@ body {
 
 /*카드 css 속성*/
 
-.container{
+.container {
+    width: 220px; height: 310px; transition : all 0.1s;
+    position: relative;
+  }
+  .overlay {
+    position: absolute;
+    width: 220px;
+    height: 310px;
+    background: linear-gradient(105deg,
+    transparent 40%,
+    rgba(255, 219, 112, 0.8) 45%,
+    rgba(132, 50, 255 ,0.6) 50%,
+    transparent 54%);
+    filter: brightness(1.1) opacity(0.8);
+    mix-blend-mode: color-dodge;
+    background-size: 150% 150%;
+    background-position: 100%;
+    transition: all 0.1s;
+  }
+  .card {
     width: 220px; height: 310px;
+    background-image: url(../images/spaceman.png);
+    background-size: cover;
+    
 }
 
-.card {
-    position: absolute;
-    width: 200px;
-    height: 310px;
-    background-image: url('../images/spaceman.png');
-    background-size: cover;
-    left: 50%;
-    bottom: 180px;
-    transform: translateX(-50%);
-    border: 2px solid white; /* 흰색 테두리 추가 */
-    box-sizing: border-box; /* 테두리를 포함한 전체 크기로 요소 크기 계산 */
-}
