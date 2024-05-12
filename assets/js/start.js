@@ -43,19 +43,18 @@ button.addEventListener("click", goToIndexPage);
 
 //카드 스크립트 
 var container = document.querySelector('.container')
-  var overlay = document.querySelector('.overlay')
-  container.addEventListener('mousemove', function(e){
-    var x = e.offsetX
-    var y = e.offsetY
-    var rotateY = -1/5 * x + 20
-    var rotateX = 4/30 * y - 20
+var card = document.querySelector('.card')
 
-    overlay.style = `background-position : ${x/5 + y/5}%; filter : opacity(${x/200}) brightness(1.2)`
+container.addEventListener('mousemove', function(e){
+    var rect = container.getBoundingClientRect();
+    var x = e.clientX - rect.left;
+    var y = e.clientY - rect.top;
 
-    container.style = `transform : perspective(350px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`
-  })
+    var rotateY = -1/5 * x + 20;
+    var rotateX = 4/30 * y - 20;
+    card.style = `transform : perspective(350px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+})
 
-  container.addEventListener('mouseout', function(){
-    overlay.style = 'filter : opacity(0)'
-    container.style = 'transform : perspective(350px) rotateY(0deg) rotateX(0deg)'
-  })
+container.addEventListener('mouseout', function(){
+    card.style = 'transform : perspective(350px) rotateY(0deg) rotateX(0deg)';
+})
