@@ -1,5 +1,5 @@
 body {
-    background-color: hsl(240, 2%, 12%);
+    background-color: hsl(0, 0%, 0%);
     margin: 0; /* 여백 제거 */
     padding: 0; /* 패딩 제거 */
     overflow: hidden; /* 화면 고정 */
@@ -28,6 +28,25 @@ body {
 #goToIndexButton {
     position: absolute;
     left: 50%;
-    bottom: 20px; /* 원하는 만큼 조정하세요 */
+    bottom: 100px; /* 원하는 만큼 조정하세요 */
     transform: translateX(-50%);
+}
+
+/*카드 css 속성*/
+
+.container{
+    width: 220px; height: 310px;
+}
+
+.card {
+    position: absolute;
+    width: 200px;
+    height: 310px;
+    background-image: url('../images/spaceman.png');
+    background-size: cover;
+    left: 50%;
+    bottom: 180px;
+    transform: translateX(-50%);
+    border: 2px solid white; /* 흰색 테두리 추가 */
+    box-sizing: border-box; /* 테두리를 포함한 전체 크기로 요소 크기 계산 */
 }
