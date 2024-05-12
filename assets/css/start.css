@@ -1,0 +1,22 @@
+body {
+    background-color: hsl(240, 2%, 12%);
+}
+
+.snowflake {
+    width: 30px;
+    height: 10px;
+    color: rgb(253, 253, 253);
+    position: absolute;
+    top: -8px;
+    animation: fall 10s linear;
+}
+
+@keyframes fall{
+    from {
+        transform: translateY(-10vh);
+    }
+    to {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+}
