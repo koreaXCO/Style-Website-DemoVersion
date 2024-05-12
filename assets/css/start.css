@@ -1,6 +1,10 @@
 body {
     background-color: hsl(240, 2%, 12%);
+    margin: 0; /* 여백 제거 */
+    padding: 0; /* 패딩 제거 */
+    overflow: hidden; /* 화면 고정 */
 }
+
 
 .snowflake {
     width: 30px;
@@ -19,4 +23,11 @@ body {
         transform: translateY(100vh);
         opacity: 0;
     }
+}
+
+#goToIndexButton {
+    position: absolute;
+    left: 50%;
+    bottom: 20px; /* 원하는 만큼 조정하세요 */
+    transform: translateX(-50%);
 }
