@@ -1740,10 +1740,10 @@ textarea.form-input::-webkit-resizer { display: none; }
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* 채팅 로그 스타일 */
+/* 채팅 로그 스타일(내부 디자인) */
 .chat-log {
-  margin-bottom: 140px;
-  padding: 120px;
+  margin-bottom: 50px;
+  padding: 140px;
   border-radius: 10px;
   background-color: #f0f0f0;
   overflow-y: scroll;
@@ -1769,7 +1769,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 /* 전송 버튼 스타일 */
 #send-button {
   padding: 16px 32px;
-  background-color: #007bff;
+  background-color: hsl(35, 100%, 68%);
   color: #fff;
   border: none;
   border-radius: 10px;
@@ -1778,7 +1778,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 #send-button:hover {
-  background-color: #0056b3;
+  background-color: #000000;
 }
 
 /* 로딩 표시 스타일 */
@@ -1791,7 +1791,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .spinner {
   border: 8px solid rgba(0, 0, 0, 0.1);
-  border-top: 8px solid #007bff;
+  border-top: 8px solid hsl(35, 100%, 68%);
   border-radius: 50%;
   width: 48px;
   height: 48px;
