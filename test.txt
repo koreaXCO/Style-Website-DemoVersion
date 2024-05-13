@@ -1,0 +1,11 @@
+
+<div class="circle zoom-in"></div>
+<div class="circle slide-up"></div>
+<div class="circle fade-in"></div>
+<div class="circle shake"></div>
+<div class="circle fade-out"></div>
+<div class="circle rotate"></div>  09009
+<div class="circle bounce"></div>
+<div class="circle grow"></div>
+<div class="circle slide-left"></div>
+

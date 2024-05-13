@@ -1,0 +1,140 @@
+@keyframes zoomInAnimation {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.zoom-in {
+  animation: zoomInAnimation 0.5s ease;
+}
+
+@keyframes slideInUpAnimation {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.slide-up {
+  animation: slideInUpAnimation 0.5s ease;
+}
+
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeInAnimation 0.5s ease;
+}
+
+@keyframes shakeAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.shake {
+  animation: shakeAnimation 0.5s ease;
+}
+
+@keyframes fadeOutAnimation {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-out {
+  animation: fadeOutAnimation 0.5s ease;
+}
+
+@keyframes rotateAnimation {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+.rotate {
+  width: 250px;
+  height: 250px;
+  background-image: url('star3.png');
+  background-size: cover;
+  background-color: transparent;
+  animation: rotateAnimation 5s linear infinite;
+  transform-origin: center center;
+}
+
+@keyframes bounceAnimation {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.bounce {
+  width: 250px;
+  height: 250px;
+  background-image: url('star3.png');
+  background-size: cover;
+  background-color: transparent;
+  animation: bounceAnimation 5s linear infinite;
+  transform-origin: center center;
+}
+
+@keyframes growAnimation {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+
+.grow {
+  animation: growAnimation 2s ease;
+}
+
+@keyframes slideInLeftAnimation {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.slide-left {
+  animation: slideInLeftAnimation 0.5s ease;
+}
