@@ -8,7 +8,19 @@
 }
 
 .zoom-in {
-  animation: zoomInAnimation 0.5s ease;
+  
+  width: 150px;
+  height: 150px;
+  background-image: url('star6.png');
+  background-size: cover;
+  background-color: transparent;
+  animation: zoomInAnimation 5s linear infinite;
+  position: absolute;
+  top: 15%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  transform-origin: center center;
+  
 }
 
 @keyframes slideInUpAnimation {
@@ -21,7 +33,20 @@
 }
 
 .slide-up {
-  animation: slideInUpAnimation 0.5s ease;
+  
+  width: 150px;
+  height: 150px;
+  background-image: url('star6.png');
+  background-size: cover;
+  background-color: transparent;
+  animation: slideInUpAnimation 5s linear infinite;
+  position: absolute;
+  top: 15%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  transform-origin: center center;
+  
+  
 }
 
 @keyframes fadeInAnimation {
@@ -34,7 +59,18 @@
 }
 
 .fade-in {
-  animation: fadeInAnimation 0.5s ease;
+  
+  width: 150px;
+  height: 150px;
+  background-image: url('star6.png');
+  background-size: cover;
+  background-color: transparent;
+  animation: fadeInAnimation 5s linear infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform-origin: center center;
 }
 
 @keyframes shakeAnimation {
@@ -56,7 +92,18 @@
 }
 
 .shake {
-  animation: shakeAnimation 0.5s ease;
+ 
+  width: 150px;
+  height: 150px;
+  background-image: url('star6.png');
+  background-size: cover;
+  background-color: transparent;
+  animation: shakeAnimation 5s linear infinite;
+  position: absolute;
+  top: 15%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  transform-origin: center center;
 }
 
 @keyframes fadeOutAnimation {
@@ -69,7 +116,18 @@
 }
 
 .fade-out {
-  animation: fadeOutAnimation 0.5s ease;
+ 
+  width: 150px;
+  height: 150px;
+  background-image: url('star6.png');
+  background-size: cover;
+  background-color: transparent;
+  animation: fadeOutAnimation 5s linear infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform-origin: center center;
 }
 
 @keyframes rotateAnimation {
@@ -82,13 +140,18 @@
 }
 
 .rotate {
-  width: 250px;
-  height: 250px;
-  background-image: url('star3.png');
+  width: 150px;
+  height: 150px;
+  background-image: url('star6.png');
   background-size: cover;
   background-color: transparent;
   animation: rotateAnimation 5s linear infinite;
+  position: absolute;
+  top: 15%;
+  left: 22%;
+  transform: translate(-50%, -50%);
   transform-origin: center center;
+
 }
 
 @keyframes bounceAnimation {
@@ -104,14 +167,20 @@
 }
 
 .bounce {
-  width: 250px;
-  height: 250px;
-  background-image: url('star3.png');
+  width: 150px;
+  height: 150px;
+  background-image: url('star6.png');
   background-size: cover;
   background-color: transparent;
   animation: bounceAnimation 5s linear infinite;
+  position: absolute;
+  top: 15%;
+  left: 22%;
+  transform: translate(-50%, -50%);
   transform-origin: center center;
 }
+
+
 
 @keyframes growAnimation {
   from {
@@ -123,7 +192,19 @@
 }
 
 .grow {
-  animation: growAnimation 2s ease;
+  
+  width: 150px;
+  height: 150px;
+  background-image: url('star6.png');
+  background-size: cover;
+  background-color: transparent;
+  animation: growAnimation 5s linear infinite;
+  position: absolute;
+  top: 15%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  transform-origin: center center;
+  
 }
 
 @keyframes slideInLeftAnimation {
@@ -136,5 +217,16 @@
 }
 
 .slide-left {
-  animation: slideInLeftAnimation 0.5s ease;
+  
+  width: 150px;
+  height: 150px;
+  background-image: url('star6.png');
+  background-size: cover;
+  background-color: transparent;
+  animation: slideInLeftAnimation 5s linear infinite;
+  position: absolute;
+  top: 15%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  transform-origin: center center;
 }
