@@ -157,3 +157,9 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+$(document).ready(function() {
+  $('.timeline-item').click(function() {
+    $(this).toggleClass('expanded'); // 클릭된 요소에 'expanded' 클래스를 토글합니다.
+  });
+});
+
