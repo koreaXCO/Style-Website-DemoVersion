@@ -40,7 +40,7 @@ body {
 #goToIndexButton {
     position: absolute;
     left: 50%;
-    bottom: 200px; /* 원하는 만큼 조정하세요 */
+    top: 80%; /* 원하는 만큼 조정하세요 */
     transform: translateX(-50%);
     width: 200px; /* 버튼의 너비 */
     height: 50px; /* 버튼의 높이 */
