@@ -1,10 +1,7 @@
 body {
-    background-color: hsl(0, 0%, 0%);
-    margin: 0; /* 여백 제거 */
-    padding: 0; /* 패딩 제거 */
-    overflow: hidden; /* 화면 고정 */
+    background-image: url("./background.png");
+    overflow: hidden;
 }
-
 
 .snowflake {
     width: 30px;
