@@ -738,25 +738,27 @@
         </header>
 
         <section class="timeline">
-
           <div class="title-wrapper">
             <div class="icon-box">
               <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <h3 class="h3">기능</h3>
+            <h3 class="h3">기본문법</h3>
           </div>
 
           <ol class="timeline-list">
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">기능제목</h4>
+              <h4 class="h4 timeline-item-title">변수 (Variables)</h4>
 
-              <span>2020 — 2025</span>
+              <span>변수는 값을 저장하는데 사용됩니다. var, let, const 키워드로 변수를 선언할 수 있습니다.</span>
 
               <p class="timeline-text">
-                code-code-code
+                <br>var x = 5; // 변수 선언
+                <br>let y = 10; // 블록 스코프 변수 선언
+                <br>const z = 15; // 상수 선언 (재할당 불가)
+
                
               </p>
 
@@ -764,12 +766,17 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">기능제목</h4>
+              <h4 class="h4 timeline-item-title">데이터 유형 (Data Types)</h4>
 
-              <span>2021 — 2022</span>
+              <span>자바스크립트의 주요 데이터 유형은 문자열, 숫자, 불리언, 배열, 객체 등이 있습니다.</span>
 
               <p class="timeline-text">
-                code-code-code
+                <br>let name = "John"; // 문자열
+                <br>let age = 30; // 숫자
+                <br>let isStudent = true; // 불리언
+                <br>let numbers = [1, 2, 3, 4, 5]; // 배열
+                <br>let person = { name: "John", age: 30 }; // 객체
+
 
               </p>
 
@@ -777,14 +784,91 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">기능제목</h4>
+              <h4 class="h4 timeline-item-title">조건문 (Conditional Statements)</h4>
 
-              <span>2017 — 2020</span>
+              <span>조건문은 조건에 따라 코드 블록을 실행합니다.</span>
 
               <p class="timeline-text">
-                code-code-code
+                <br>if (age >= 18) {
+                  <br>console.log("You are an adult.");
+                  <br>} else {
+                <br> console.log("You are a minor.");
+                  <br>}
+              
+              </p>
 
+            </li>
+            <li class="timeline-item">
 
+              <h4 class="h4 timeline-item-title">반복문 (Loops)</h4>
+
+              <span>반복문은 코드를 여러 번 실행합니다.</span>
+
+              <p class="timeline-text">
+                
+                <br>for (let i = 0; i < 5; i++) {
+                  <br>console.log(i);
+                  <br>}
+              
+              <br>let fruits = ["Apple", "Banana", "Orange"];
+              <br>for (let fruit of fruits) {
+                <br>console.log(fruit);
+                  <br> }
+              
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">함수 (Functions)</h4>
+
+              <span>함수는 코드를 재사용 가능한 단위로 묶어줍니다.</span>
+
+              <p class="timeline-text">
+                
+                <br>function greet(name) {
+                  <br>console.log("Hello, " + name + "!");
+                  <br>}
+              <br>greet("John"); // 함수 호출
+              
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">이벤트 처리 (Event Handling)</h4>
+
+              <span>이벤트 처리는 사용자 상호 작용에 대한 응답으로 코드를 실행합니다.</span>
+
+              <p class="timeline-text">
+                
+                <br>document.getElementById("myButton").addEventListener("click", function() {
+                  <br>console.log("Button clicked!");
+                  <br>});
+              
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">클래스 (Classes)</h4>
+
+              <span>클래스는 객체 지향 프로그래밍에서 사용되며, 객체 생성을 위한 템플릿 역할을 합니다.</span>
+
+              <p class="timeline-text">
+                
+                <br>class Rectangle {
+                  <br>constructor(width, height) {
+                    <br>this.width = width;
+                    <br>this.height = height;
+                    <br>}
+                    <br>getArea() {
+                      <br>return this.width * this.height;
+                      <br>}
+                      <br>}
+                      <br>let rect = new Rectangle(5, 10);
+                      <br>console.log(rect.getArea());
+              
               </p>
 
             </li>
@@ -800,44 +884,249 @@
               <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <h3 class="h3">기능2</h3>
+            <h3 class="h3">실용/실무 문법</h3>
           </div>
 
           <ol class="timeline-list">
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">기능제목</h4>
+              <h4 class="h4 timeline-item-title">랜덤 숫자 생성하기</h4>
 
-              <span>2020 — 2021</span>
+              <span>1 이상 10 이하의 랜덤 정수 출력</span>
 
               <p class="timeline-text">
                 
-                code-code-code
+                <br>function getRandomNumber(min, max) {
+                  <br>return Math.floor(Math.random() * (max - min + 1)) + min;
+                  <br>}
+                  <br>console.log(getRandomNumber(1, 10)); // 1 이상 10 이하의 랜덤 정수 출력
+              
+              
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">기능제목</h4>
+              <h4 class="h4 timeline-item-title">시간 형식 변환하기</h4>
 
-              <span>2020 — 2021</span>
+              <span>"?시 ?분 ?초"</span>
 
               <p class="timeline-text">
-                code-code-code
+                <br>function formatTime(seconds) {
+                  <br>let hours = Math.floor(seconds / 3600);
+                  <br>let minutes = Math.floor((seconds % 3600) / 60);
+                  <br>let remainingSeconds = seconds % 60;
+                  <br>return `${hours}시간 ${minutes}분 ${remainingSeconds}초`;
+                  <br>}
+                  <br>console.log(formatTime(3665)); // 출력: "1시간 1분 5초"
+              
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">기능제목</h4>
+              <h4 class="h4 timeline-item-title">이메일 유효성 검사</h4>
 
-              <span>2021 — 2022</span>
+              <span>이메일 양식 검사</span>
 
               <p class="timeline-text">
-                code-code-code
+                <br>function validateEmail(email) {
+                  <br>const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                  <br>return regex.test(email);
+                  <br>}
+                  <br>console.log(validateEmail("example@example.com")); // 출력: true
+              
+                
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">날짜 형식 변환하기</h4>
+
+              <span>월(영) 일(영), 년도(영)</span>
+
+              <p class="timeline-text">
+                <br>function formatDate(dateString) {
+                  <br>const options = { year: 'numeric', month: 'long', day: 'numeric' };
+                  <br>return new Date(dateString).toLocaleDateString('en-US', options);
+                  <br>}
+                  <br>console.log(formatDate('2024-05-16')); // 출력: "May 16, 2024"
+              
+                
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">요소의 유무 확인하기</h4>
+
+              <span>출력: true / false</span>
+
+              <p class="timeline-text">
+                <br>function containsElement(arr, element) {
+                  <br>return arr.includes(element);
+                  <br>}
+                  <br>let fruits = ['apple', 'banana', 'orange'];
+                  <br>console.log(containsElement(fruits, 'banana')); // 출력: true
+              
+                
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">문자열에서 특정 패턴 검색하기</h4>
+
+              <span>출력: ['The', 'the']</span>
+
+              <p class="timeline-text">
+                <br>function searchPattern(str, pattern) {
+                  <br> const regex = new RegExp(pattern, 'gi');
+                  <br>return str.match(regex) || [];
+                  <br>}
+                  <br>let text = 'The quick brown fox jumps over the lazy dog';
+                  <br>console.log(searchPattern(text, 'the')); // 출력: ['The', 'the']
+              
+                
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">클래스를 이용한 모듈화</h4>
+
+              <span>모듈화 작업</span>
+
+              <p class="timeline-text">
+                <br>class Calculator {
+                  <br>add(a, b) {
+                    <br>return a + b;
+                    <br>}
+                    <br>subtract(a, b) {
+                      <br>return a - b;
+                      <br>}
+                      <br>multiply(a, b) {
+                        <br>return a * b;
+                        <br>}
+                        <br>divide(a, b) {
+                          <br>if (b === 0) {
+                            <br>throw new Error('Division by zero');
+                            <br>}
+                            <br>return a / b;
+                            <br>}
+                            <br>}
+              
+                            <br>// 사용 예시
+                            <br>let calc = new Calculator();
+                            <br>console.log(calc.add(5, 3)); // 출력: 8
+              
+                
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">마우스 클릭 이벤트 감지하기</h4>
+
+              <span>마우스 클릭시</span>
+
+              <p class="timeline-text">
+                <br>document.getElementById('myButton').addEventListener('click', function(event) {
+                  <br>console.log('Button clicked!');
+                  <br>});
+              
+                
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">마우스 이동 이벤트 처리</h4>
+
+              <span>마우스 이동시</span>
+
+              <p class="timeline-text">
+                <br>document.addEventListener('mousemove', function(event) {
+                  <br>console.log(`Mouse position - X: ${event.clientX}, Y: ${event.clientY}`);
+                  <br>});
+              
+                
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">마우스 오버/아웃 이벤트 처리</h4>
+
+              <span>마우스 IN/OUT 처리</span>
+
+              <p class="timeline-text">
+                <br> document.getElementById('myElement').addEventListener('mouseover', function(event) {
+                  <br>console.log('Mouse over element');
+                  <br>});
+                  <br>document.getElementById('myElement').addEventListener('mouseout', function(event) {
+                    <br>console.log('Mouse out of element');
+                    <br>});
+              
+                
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">마우스 드래그 이벤트 처리</h4>
+
+              <span>마우스 드래그시</span>
+
+              <p class="timeline-text">
+                <br>let isDragging = false;
+                <br>document.getElementById('dragElement').addEventListener('mousedown', function(event) {
+                  <br>isDragging = true;
+                  <br>});
+                  <br>document.addEventListener('mousemove', function(event) {
+                    <br>if (isDragging) {
+                      <br>console.log('Dragging...');
+                      <br>}
+                      <br>});
+                      <br>document.addEventListener('mouseup', function(event) {
+                        <br> isDragging = false;
+                        <br>});
+
+                
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">마우스 휠 이벤트 처리</h4>
+
+              <span>마우스 휠 UP/DOWN</span>
+
+              <p class="timeline-text">
+                <br>document.addEventListener('wheel', function(event) {
+                  <br>console.log(`Wheel Delta - X: ${event.deltaX}, Y: ${event.deltaY}`);
+                  <br>});
+              
+                
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">마우스 오른쪽 버튼 클릭 방지</h4>
+
+              <span>오른쪽 버튼 클릭방지</span>
+
+              <p class="timeline-text">
+                <br>document.addEventListener('contextmenu', function(event) {
+                  <br> event.preventDefault();
+                  <br>});
+              
                 
               </p>
 
@@ -848,43 +1137,54 @@
         </section>
 
 
-<!--자격증 보유내역-->
+<!--참고 정보-->
 <section class="skill">
 
-  <h3 class="h3 skills-title">세부사항 설명</h3>
+  <h3 class="h3 skills-title">세부 참고정보</h3>
 
   <ul class="skills-list content-card">
 
     <li class="skills-item">
 
       <div class="title-wrapper">
-        <h5 class="h5">설명설명</h5>
-      </div>
-
-
-    </li>
-
-    <li class="skills-item">
-
-      <div class="title-wrapper">
-        <h5 class="h5">설명설명</h5>
+        
+        <h5 class="h5">
+          <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Mozilla Developer Network(MDN)</a>
+             웹 기술에 대한 종합적인 문서와 자바스크립트 튜토리얼을 제공합니다.
+             자바스크립트의 모든 측면을 다루며, 예제 코드와 함께 상세한 설명을 제공합니다.</p>
+      </h5>
+      
       </div>
 
     </li>
 
     <li class="skills-item">
 
-      <div class="title-wrapper">
-        <h5 class="h5">--</h5>
-      </div>
+      <h5 class="h5">
+        <p><a href="https://javascript.info/">JavaScript.info</a>
+          자바스크립트의 다양한 주제를 다루는 훌륭한 튜토리얼 사이트입니다. ES6 문법부터 고급 주제까지 다룹니다.
+           또한 대화형 예제와 연습 문제를 제공하여 학습을 돕습니다.</p>
+    </h5>
 
     </li>
 
     <li class="skills-item">
 
-      <div class="title-wrapper">
-        <h5 class="h5">--</h5>
-      </div>
+      <h5 class="h5">
+        <p><a href="https://www.w3schools.com/js/js_intro.asp">W3Schools</a>
+          HTML, CSS, 자바스크립트 및 다른 웹 기술에 대한 튜토리얼과 예제를 제공하는 인기 있는 리소스입니다.
+           초보자부터 전문가까지 모두 사용할 수 있습니다</p>
+    </h5>
+
+    </li>
+
+    <li class="skills-item">
+
+      <h5 class="h5">
+        <p><a href="https://stackoverflow.com/questions/tagged/javascript">Stack Overflow</a>
+          프로그래밍 및 웹 개발에 대한 질문과 답변을 공유하는 커뮤니티입니다.
+           자바스크립트 관련 문제를 검색하고 다른 개발자들의 답변을 참고할 수 있습니다.</p>
+    </h5>
 
 
     </li>

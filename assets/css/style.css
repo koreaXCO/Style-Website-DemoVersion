@@ -1830,5 +1830,8 @@ textarea.form-input::-webkit-resizer { display: none; }
 .timeline-item.expanded {
   width: 100%; /* 클릭되면 전체 너비로 확장됩니다. */
 }
-
+a { /*하이퍼링크*/
+  color: white;
+  text-decoration: overline;
+}
     
