@@ -1832,6 +1832,5 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 a { /*하이퍼링크*/
   color: white;
-  text-decoration: overline;
 }
     
