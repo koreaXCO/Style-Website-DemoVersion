@@ -116,6 +116,19 @@
 
 }
 
+@font-face {
+  font-family: 'CustomFont';
+  src: url('./AppleSDGothicNeoEB.ttf') format('truetype');
+  }
+
+body {
+  font-family: 'CustomFont', Arial, sans-serif;
+}
+.href {
+color: aliceblue;
+
+}
+
 
 
 
