@@ -1823,15 +1823,21 @@ textarea.form-input::-webkit-resizer { display: none; }
   margin: 20px 0;
 }
 
-/* 사용자 메시지 배경색 */
+/* 사용자 메시지 배경색 및 위치 */
 .user {
+  transform: translateX(100px); /* 오른쪽으로 위치하도록 */
   background-color: #def3ff;
 }
 
-/* 챗봇 메시지 배경색 */
+/* 챗봇 메시지 배경색 및 위치 */
 .bot {
+  transform: translateX(-100px); /* 왼쪽으로 위치하도록 */
   background-color: #e9e9e9;
 }
+
+
+
+/*자바스크립트 상세보기 부분*/
 .timeline-item.expanded .timeline-text {
   display: block;
 }
