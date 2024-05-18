@@ -1852,4 +1852,8 @@ textarea.form-input::-webkit-resizer { display: none; }
 a { /*하이퍼링크*/
   color: white;
 }
-    
+
+.footer {
+  color: #e9e9e9;
+  text-align: center; /* This will center the text horizontally */
+}
