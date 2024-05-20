@@ -1858,6 +1858,8 @@ a { /*하이퍼링크*/
   text-align: center; /* This will center the text horizontally */
 }
 
+
+/*팝업창 주석*/
 .hidden {
   display: none;
 }
