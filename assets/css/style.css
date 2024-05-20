@@ -1724,7 +1724,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .social-list { justify-content: center; }
-
+}
 
 
   /**
@@ -1741,7 +1741,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .chat-box{background: #eee; padding: 5px; max-width:
     200px;}
   .mine{margin-left: auto;}
-}
+
 /* 대화형 컨테이너 스타일 */
 .chat-container {
   max-width: 800px;
