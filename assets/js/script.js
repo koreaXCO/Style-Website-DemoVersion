@@ -164,3 +164,37 @@ $(document).ready(function() {
 });
 
 
+//팝업 스크립트
+function openPopup(id) {
+  // 팝업창의 너비와 높이 설정
+  const width = 400;
+  const height = 300;
+
+  // 팝업창을 화면 중앙에 위치시키기 위한 좌표 계산
+  const left = (window.screen.width - width) / 2;
+  const top = (window.screen.height - height) / 2;
+
+  // 팝업창 열기
+  const popup = window.open('', `popup${id}`, `width=${width},height=${height},left=${left},top=${top}`);
+  popup.document.write('<html lang="ko"><head><meta charset="UTF-8"><title>텍스트 팝업</title></head><body>');
+  popup.document.write('<div id="popup-text">데이터를 가져오는 중...</div>');
+  popup.document.write('<script src="./assets/js/popup.js"><\/script>');
+  popup.document.write('</body></html>');
+  popup.document.close();
+  popup.onload = () => {
+      popup.fetchText(id);
+  };
+}
+
+
+window.onload = () => {
+  addClickEventToIcons();
+};
+
+function addClickEventToIcons() {
+  const icons = document.querySelectorAll('ion-icon[name="search"]');
+  icons.forEach((icon, index) => {
+    icon.addEventListener('click', () => openPopup(index + 1));
+  });
+}
+
