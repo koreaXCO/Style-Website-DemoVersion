@@ -74,10 +74,6 @@ body {
     background-size: cover;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* 여기에 box-shadow 속성 추가 */
 }
-.footer {
-    color: #e9e9e9;
-    text-align: center; /* Centers text horizontally */
-    padding: 10px; /* Optional padding */
-  }
+
   
   
