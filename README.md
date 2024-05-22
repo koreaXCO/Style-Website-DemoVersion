@@ -1,14 +1,18 @@
-# vCard(가상명함) - 개인 포토폴리오
+# SPACECODE - (Demo)WEBSITE
 
-![GitHub repo size](https://img.shields.io/github/repo-size/DaeguShiba/vcard-personal-portfolio-KR)
+![GitHub repo size](https://img.shields.io/github/repo-size/koreaXCO/Style-Website-DemoVersion.git)
 
 
 123
 
-## 데모
+## SPACECODE WEB은 이런걸 할 수 있어요!🧑‍🚀
 
-![vCard Desktop Demo](./website-demo-image/데스크탑.PNG "Desktop Demo")
-![vCard Mobile Demo](./website-demo-image/모든화면.PNG "Mobile Demo")
+![vCard Desktop Demo](./website-demo-image/start.jpeg "Desktop Demo")
+![vCard Mobile Demo](./website-demo-image/index.jpeg "Mobile Demo")
+![vCard Mobile Demo](./website-demo-image/css.jpeg "Mobile Demo")
+![vCard Mobile Demo](./website-demo-image/api.jpeg "Mobile Demo")
+![vCard Mobile Demo](./website-demo-image/script.jpeg "Mobile Demo")
+![vCard Mobile Demo](./website-demo-image/chatbot.jpeg "Mobile Demo")
 
 ## 확인해주세요!
 
@@ -16,19 +20,19 @@
 
 * [Git](https://git-scm.com/downloads "Download Git") 운영 체제에 설치해야 합니다.
 
-## 가상명함 저장방법!
+## SPACECODE 저장방법!
 
-**vCard**을(를) 설치하려면 다음 단계를 수행합니다:
+**FE**을(를) 설치하려면 다음 단계를 수행합니다:
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/DaeguShiba/vcard-personal-portfolio-KR.git
+sudo git clone https://github.com/koreaXCO/Style-Website-DemoVersion.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/DaeguShiba/vcard-personal-portfolio-KR.git
+git clone https://github.com/koreaXCO/Style-Website-DemoVersion.git
 ```
 ## 자신의 캐릭터 생성
 * [아바타제작](https://peeps.ui8.net/ "캐릭터를 생성!")
