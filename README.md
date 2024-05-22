@@ -12,23 +12,31 @@
 
 ### 목차
 *[SPACECODE에 대하여!](#spacecode-web은-이런걸-할-수-있어요)
-*[SPACECODE의 목표!](#spacecode는-풀스택으로-거듭날-예정예요)
-*[설치 전 확인사항!](#확인해주세요)
-*[SPCAECODE 저장하는법?!](#spacecode-저장방법)
-*[귀여운 아바타 생성](#자신의-캐릭터-생성)
+<br>*[SPACECODE의 목표!](#spacecode는-풀스택으로-거듭날-예정예요)
+<br>*[설치 전 확인사항!](#확인해주세요)
+<br>*[SPCAECODE 저장하는법?!](#spacecode-저장방법)
+<br>*[귀여운 아바타 생성](#자신의-캐릭터-생성)
 
 ## SPACECODE WEB은 이런걸 할 수 있어요!🧑‍🚀
 
 ![vCard Desktop Demo](./website-demo-image/start.jpeg "Desktop Demo")
+
 ![vCard Mobile Demo](./website-demo-image/index.jpeg "Mobile Demo")
+
 ![vCard Mobile Demo](./website-demo-image/css.jpeg "Mobile Demo")
+
 ![vCard Mobile Demo](./website-demo-image/api.jpeg "Mobile Demo")
+
 ![vCard Mobile Demo](./website-demo-image/script.jpeg "Mobile Demo")
+
 ![vCard Mobile Demo](./website-demo-image/chatbot.jpeg "Mobile Demo")
 
 ## SPACECODE는 풀스택으로 거듭날 예정예요!
-현재 (FE) HTML, CSS, JavaScript (BE) Node.js Mysql 로 구성된 프론트엔드 사이트를
-<br>React, Next.js 를 학습하여 프로젝트에 추가할 예정이예요!
+<br>저희 웹사이트는 현재 프론트엔드에서는 HTML, CSS, JavaScript를, 백엔드에서는 <br>Node.js와 MySQL을 사용하여 구축되어 있습니다. 이렇게 구성된 <br>기술 스택은 웹사이트의 안정성과 효율성을 보장하며, 사용자에게 최상의 경험을 제공합니다.
+
+<br>하지만, 저희는 기술의 발전과 함께 성장하는 것을 중요하게 생각합니다. 그래서 저희 팀은 현재 React와 Next.js를 학습하고 있으며, 이를 <br>프로젝트에 통합할 계획입니다. 이 두 기술은 현대 웹 개발의 핵심 요소로, 이를 통해 웹사이트의 성능을 향상시키고, 사용자 경험을 더욱 풍부하게 <br>만들 수 있습니다.
+
+<br>앞으로의 활동 방향은 이러한 새로운 기술을 저희 웹사이트에 통합하고, 이를 통해 사용자에게 더 나은 서비스를 제공하는 것입니다. 또한, 저희는 <br>기술의 변화와 시장의 트렌드를 계속해서 주시하며, 필요한 경우 새로운 기술을 도입할 준비가 되어 있습니다. 저희의 목표는 항상 최신 기술을 <br>통해 최고의 서비스를 제공하는 것입니다. 이를 통해 저희 웹사이트는 계속해서 발전하고, 사용자에게 가치를 제공할 것입니다. 이러한 저희의 <br>노력을 통해, 저희 웹사이트는 더욱 성장하고, 사용자에게 더 나은 경험을 제공할 것입니다. 감사합니다.
 
 
 ## 확인해주세요!
@@ -55,14 +63,7 @@ git clone https://github.com/koreaXCO/Style-Website-DemoVersion.git
 * [아바타제작](https://peeps.ui8.net/ "캐릭터를 생성!")
 
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+<br>
 
 ## License
 
