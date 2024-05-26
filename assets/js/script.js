@@ -176,7 +176,7 @@ function openPopup(id) {
 
   // 팝업창 열기
   const popup = window.open('', `popup${id}`, `width=${width},height=${height},left=${left},top=${top}`);
-  popup.document.write('<html lang="ko"><head><meta charset="UTF-8"><title>텍스트 팝업</title></head><body>');
+  popup.document.write('<html lang="ko"><head><meta charset="UTF-8"><title>코드 팝업창</title></head><body>');
   popup.document.write('<div id="popup-text">데이터를 가져오는 중...</div>');
   popup.document.write('<script src="./assets/js/popup.js"><\/script>');
   popup.document.write('</body></html>');
